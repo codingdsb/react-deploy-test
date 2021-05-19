@@ -1,0 +1,13 @@
+.card {
+    border: 5px solid;
+    width: 300px;
+}
+
+img {
+    height: 250px;
+    width: 270px;
+}
+
+h2 {
+    border-top: 5px solid;
+}
