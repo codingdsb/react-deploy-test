@@ -2,13 +2,14 @@
   text-align: center;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 480px) {
   .row {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    min-width: 100vw;
-    min-height: 40vh;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
 }
